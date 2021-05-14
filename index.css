@@ -1,0 +1,77 @@
+/* html{
+  position: relative;
+} */
+.nav-div{
+  padding-left: 0;
+  padding-right: 0;
+}
+.bank-img{
+  height: 200px;
+  width: 50%;
+  float: left;
+}
+.desc{
+  background-color: #eeeeee;
+}
+.bank-desc{
+  display: inline-block;
+  padding: 50px 20px 10px 20px;
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.bank-desc-p{
+  font-size: 20px;
+  display: inline-block;
+  padding: 10px 20px 30px 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+.row{
+  clear: left;
+}
+.content{
+  background-color: black;
+}
+.content-item{
+  padding-top: 30px;
+  text-align: center;
+}
+/* .content-img{
+  height: 180px;
+  width: 180px;
+} */
+.content-txt{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+footer{
+
+  /* position: sticky;
+  z-index: 1;
+  bottom: 0; */
+  position: relative;
+  /* z-index: 1;
+  bottom: 0; */
+  top: 30px;
+  text-align: center;
+  background-color: #393e46;
+  /* margin: 0; */
+  margin-bottom: -10px;
+}
+.contact-txt{
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.contact-link{
+  margin: 20px 15px 10px;
+  color: white;
+}
+.copyright-text{
+  color: white;
+  font-size: 1.25rem;
+  margin-bottom: 0;
+}
+.contact-link:hover{
+  color: #eeeeee;
+}
